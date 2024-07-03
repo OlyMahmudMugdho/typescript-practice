@@ -5,8 +5,8 @@ export interface Shape {
 
 export class Triangle implements Shape {
     edges: number = 3;
-    private height: number;
-    private base: number;
+    private height!: number;
+    private base!: number;
 
     getArea(): number {
         return 0.5 * this.base * this.height;
