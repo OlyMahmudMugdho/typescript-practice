@@ -1,7 +1,7 @@
 class Person {
     private name: string;
     private age: number;
-    private hobby: string;
+    private hobby!: string;
 
     public constructor(name: string, age: number) {
         this.name = name;
