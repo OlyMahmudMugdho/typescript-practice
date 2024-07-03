@@ -1,4 +1,5 @@
 import { Cat } from "./Cat";
+import { Triangle } from "./Shape";
 
 
 class Person {
@@ -33,3 +34,9 @@ console.log(mugdho.getHobby())
 
 
 const tom = new Cat(4);
+
+const triangle = new Triangle();
+triangle.setBase(2);
+triangle.setHeight(3);
+
+console.log(triangle.getArea());
