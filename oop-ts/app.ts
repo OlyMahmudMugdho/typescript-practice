@@ -1,3 +1,6 @@
+import { Cat } from "./Cat";
+
+
 class Person {
     private readonly name: string;
     private age: number;
@@ -27,3 +30,6 @@ const mugdho = new Person("Mugdho", 23);
 console.log(mugdho.getName())
 mugdho.setHobby("Learning Arabic")
 console.log(mugdho.getHobby())
+
+
+const tom = new Cat(4);

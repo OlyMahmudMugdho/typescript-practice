@@ -1,4 +1,4 @@
-class Animal {
+export class Animal {
     private legs: number;
 
     public constructor(legs: number) {
