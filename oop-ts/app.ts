@@ -1,7 +1,8 @@
 class Person {
-    private name: string;
+    private readonly name: string;
     private age: number;
     private hobby!: string;
+
 
     public constructor(name: string, age: number) {
         this.name = name;
@@ -19,6 +20,7 @@ class Person {
     public getHobby(): string {
         return this.hobby;
     }
+
 }
 
 const mugdho = new Person("Mugdho", 23);
