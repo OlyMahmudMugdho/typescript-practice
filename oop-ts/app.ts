@@ -39,4 +39,4 @@ const triangle = new Triangle();
 triangle.setBase(2);
 triangle.setHeight(3);
 
-console.log(triangle.getArea());
+console.log(triangle.getArea())
